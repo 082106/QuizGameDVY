@@ -21,7 +21,7 @@ public class Main {
         }
         
         int selectedCategoryIndex = scanner.nextInt();
-        scanner.nextLine(); // Consume the newline character
+        scanner.nextLine();
         
         if (selectedCategoryIndex < 1 || selectedCategoryIndex > categories.size()) {
             System.out.println("Invalid category selection. Exiting the game.");
